@@ -1,0 +1,25 @@
+{
+  "name": "is-chrome",
+  "version": "1.0.0",
+  "description": "Check if browser is Google Chrome",
+  "license": "MIT",
+  "repository": "gillstrom/is-chrome",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "browser",
+    "check",
+    "chrome",
+    "detect",
+    "google"
+  ]
+}
