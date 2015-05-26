@@ -17,9 +17,20 @@ $ npm install --save is-chrome
 ```js
 var isChrome = require('is-chrome');
 
-console.log(isChrome);
+isChrome();
 //=> true
+
+isChrome({version: 42});
+//=> true
+
+isChrome({userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1795.60'});
+//=> false (This is from Opera)
 ```
+
+
+## Related
+
+* [brwsr](https://github.com/gillstrom/brwsr) - Get current browser
 
 
 ## License
