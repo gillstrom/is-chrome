@@ -28,13 +28,12 @@ isChrome({userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKi
 ```
 
 
-### isChrome(options)
+### isChrome([options])
 
 Returns a `boolean`.
 
 #### options
 
-*Optional*  
 Type: `object`
 
 ##### options.userAgent
@@ -47,7 +46,7 @@ User agent to test.
 
 Type: `string` or `number`
 
-Check for specific version
+Check for specific version.
 
 
 ## Related

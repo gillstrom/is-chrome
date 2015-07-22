@@ -19,16 +19,18 @@
     "index.js"
   ],
   "keywords": [
+    "agent",
     "browser",
     "check",
     "chrome",
     "detect",
-    "google"
+    "google",
+    "test"
   ],
   "dependencies": {
-    "array-contains": "0.0.1"
+    "array-contains": "^0.0.1"
   },
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "^0.0.4"
   }
 }
