@@ -1,36 +1,45 @@
 {
-  "name": "is-chrome",
-  "version": "2.0.2",
-  "description": "Check if browser is Google Chrome",
-  "license": "MIT",
-  "repository": "gillstrom/is-chrome",
-  "author": {
-    "name": "Andreas Gillström",
-    "email": "andreasgillstrom@gmail.com",
-    "url": "github.com/gillstrom"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "node test.js"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "agent",
-    "browser",
-    "check",
-    "chrome",
-    "detect",
-    "google",
-    "test"
-  ],
-  "dependencies": {
-    "array-contains": "^0.0.1"
-  },
-  "devDependencies": {
-    "ava": "^0.0.4"
-  }
+	"name": "is-chrome",
+	"version": "2.0.2",
+	"description": "Check if browser is Google Chrome",
+	"license": "MIT",
+	"repository": "gillstrom/is-chrome",
+	"author": {
+		"name": "Andreas Gillström",
+		"email": "andreasgillstrom@gmail.com",
+		"url": "github.com/gillstrom"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"agent",
+		"browser",
+		"check",
+		"chrome",
+		"detect",
+		"google",
+		"test"
+	],
+	"dependencies": {
+		"array-contains": "^0.0.1"
+	},
+	"devDependencies": {
+		"ava": "^0.23.0",
+		"xo": "^0.18.2"
+	},
+	"xo": {
+		"globals": [
+			"navigator"
+		],
+		"rules": {
+			"no-useless-escape": 0
+		}
+	}
 }
