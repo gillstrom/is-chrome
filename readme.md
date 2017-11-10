@@ -8,14 +8,14 @@
 ## Install
 
 ```
-$ npm install --save is-chrome
+$ npm install is-chrome
 ```
 
 
 ## Usage
 
 ```js
-var isChrome = require('is-chrome');
+const isChrome = require('is-chrome');
 
 isChrome();
 //=> true
