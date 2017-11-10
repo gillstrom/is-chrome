@@ -1,6 +1,6 @@
 {
 	"name": "is-chrome",
-	"version": "2.0.2",
+	"version": "3.0.0",
 	"description": "Check if browser is Google Chrome",
 	"license": "MIT",
 	"repository": "gillstrom/is-chrome",
